@@ -1,2 +1,2 @@
 # Golang
-It's just about programming language golang
+> This is about the programming language golang
