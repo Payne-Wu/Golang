@@ -36,9 +36,9 @@ func switchLoop() {
 
 func forLoop() {
 	a := 2
-	//if a == 1 {
+	//if a.txt == 1 {
 	//	fmt.Println("GOOD")
-	//} else if a == 2 {
+	//} else if a.txt == 2 {
 	//	fmt.Println("Bad")
 	//} else {
 	//	fmt.Println("Oh~")

@@ -35,5 +35,5 @@ func func3() {
 	// 指定索引值的方式来初始化数组
 	a := [...]int{1: 1, 3: 5}
 	fmt.Println(a)                  // [0 1 0 5]
-	fmt.Printf("type of a:%T\n", a) //type of a:[4]int
+	fmt.Printf("type of a.txt:%T\n", a) //type of a.txt:[4]int
 }

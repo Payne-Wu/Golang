@@ -24,12 +24,12 @@ func base() {
 
 func New() {
 	// 错误写法 初始值为nil，无法根据内存地址取值
-	//var a *int只是声明了一个指针变量a但是没有初始化，指针作为引用类型需要初始化后才会拥有内存空间，才可以给它赋值。
+	//var a.txt *int只是声明了一个指针变量a但是没有初始化，指针作为引用类型需要初始化后才会拥有内存空间，才可以给它赋值。
 	/*
-		var a *int
-			//fmt.Println(a) // nil
-			*a = 100
-			fmt.Println(*a) // panic: runtime error: invalid memory address or nil pointer dereference
+		var a.txt *int
+			//fmt.Println(a.txt) // nil
+			*a.txt = 100
+			fmt.Println(*a.txt) // panic: runtime error: invalid memory address or nil pointer dereference
 	*/
 
 	// new 申请一个内存地址值
